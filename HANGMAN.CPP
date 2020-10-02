@@ -240,11 +240,11 @@ void mainmenu()
 				clrscr();
 				textcolor(14);
 				gotoxy(3,5);
-				cprintf("The player has to randomly select the alphabets");
+				cprintf("The player has to randomly type the alphabets");
 				gotoxy(3,6);
 				cprintf("If correct it will be shown on the screen or else");
 				gotoxy(3,7);
-				cprintf("after a maximum of 5 WRONG attempts the man dies ");
+				cprintf("after a maximum of 5 WRONG attempts the man will die");
 				gotoxy(1,10);
 				cout<<"_____________________________________________________________________"<<endl;
 				gotoxy(10,12);
@@ -273,18 +273,18 @@ void main()
 	int c=20,r=10,n;
 	char s;
 	textcolor(RED);
-	gotoxy(c,r);cprintf("Û  Û  ÛÛÛÛ  Û   Û  ÛÛÛÛÛ  Û       Û  ÛÛÛÛ  Û   Û");r++;
-	gotoxy(c,r);cprintf("Û  Û  Û  Û  ÛÛ  Û  Û      ÛÛ     ÛÛ  Û  Û  ÛÛ  Û");r++;
-	gotoxy(c,r);cprintf("ÛÛÛÛ  ÛÛÛÛ  Û Û Û  Û  ÛÛ  Û Û   Û Û  ÛÛÛÛ  Û Û Û");r++;
-	gotoxy(c,r);cprintf("Û  Û  Û  Û  Û  ÛÛ  Û   Û  Û  Û Û  Û  Û  Û  Û  ÛÛ");r++;
-	gotoxy(c,r);cprintf("Û  Û  Û  Û  Û   Û  ÛÛÛÛÛ  Û   Û   Û  Û  Û  Û   Û");r=r+5;
+	gotoxy(c,r);cprintf("Ã›  Ã›  Ã›Ã›Ã›Ã›  Ã›   Ã›  Ã›Ã›Ã›Ã›Ã›  Ã›       Ã›  Ã›Ã›Ã›Ã›  Ã›   Ã›");r++;
+	gotoxy(c,r);cprintf("Ã›  Ã›  Ã›  Ã›  Ã›Ã›  Ã›  Ã›      Ã›Ã›     Ã›Ã›  Ã›  Ã›  Ã›Ã›  Ã›");r++;
+	gotoxy(c,r);cprintf("Ã›Ã›Ã›Ã›  Ã›Ã›Ã›Ã›  Ã› Ã› Ã›  Ã›  Ã›Ã›  Ã› Ã›   Ã› Ã›  Ã›Ã›Ã›Ã›  Ã› Ã› Ã›");r++;
+	gotoxy(c,r);cprintf("Ã›  Ã›  Ã›  Ã›  Ã›  Ã›Ã›  Ã›   Ã›  Ã›  Ã› Ã›  Ã›  Ã›  Ã›  Ã›  Ã›Ã›");r++;
+	gotoxy(c,r);cprintf("Ã›  Ã›  Ã›  Ã›  Ã›   Ã›  Ã›Ã›Ã›Ã›Ã›  Ã›   Ã›   Ã›  Ã›  Ã›  Ã›   Ã›");r=r+5;
 	for(c=1;c<=78;c++)
 	{
 		textcolor(WHITE);
 		gotoxy(c,r);
 		cprintf("_");
 	}
-	delay(1000);
+	delay(1001);
 	textcolor(WHITE + BLINK);
 	gotoxy(25,21);cprintf("Press any button to continue");
 	gotoxy(32,23);cprintf("Press E to exit");
